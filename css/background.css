@@ -2,7 +2,7 @@
 
 #background
     {
-        background-image: url('../img/warning.png');
+        background-image: url('../img/zombie.jpg');
         background-repeat: no-repeat;
         background-size:100%;
         bottom: 0;
@@ -15,4 +15,12 @@
         text-align: center;
         top: 0;
         background-size: cover;
+    }
+
+#geral 
+    { 
+        margin: 0 auto;
+        max-width: 45%;
+        padding: 20px 0px;
+        background-color: rgba(0,0,0,0.5);
     }
