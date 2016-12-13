@@ -38,8 +38,9 @@
                                     Update Location
                                 </p></font>
 
-                                <button type="button" class="btn btn-default">
+                                <button type="button" class="btn btn-default" onclick="redirect();">
                                     <span class="glyphicon glyphicon-chevron-right"></span> Enter
+                                </button>
                             </div>
                             
                             <div class="col-lg-4"></div>
@@ -47,5 +48,11 @@
                     </div>
                 </div>
             </header>
+            
+            <script>
+                function redirect(){
+                    location.href = "view/view_main.html";
+                }
+            </script>
         </body>
     </html> 
